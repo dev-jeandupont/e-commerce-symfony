@@ -1,3 +1,107 @@
+/* Style global pour le fond */
 body {
-    background-color: skyblue;
+    background-color: #f8f9fa; /* Gris clair pour un design moderne */
+    font-family: Arial, sans-serif; /* Police de caractères moderne et lisible */
+}
+
+/* Conteneur principal pour centrer le formulaire */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Hauteur égale à la fenêtre */
+    padding: 20px;
+}
+
+/* Carte contenant le formulaire */
+.card {
+    width: 100%;
+    max-width: 500px;
+    background-color: #ffffff; /* Fond blanc */
+    border-radius: 12px; /* Coins arrondis */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    padding: 30px;
+    border: none;
+}
+
+/* Titre des pages */
+.card h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #343a40; /* Couleur sombre pour le titre */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Champs du formulaire */
+.form-control {
+    border-radius: 8px; /* Coins arrondis */
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da; /* Bordure par défaut */
+}
+
+.form-control:focus {
+    border-color: #007bff; /* Bordure bleue au focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Ombre légère au focus */
+}
+
+/* Boutons de soumission */
+.btn {
+    width: 100%; /* Pleine largeur */
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+}
+
+.btn-primary {
+    background-color: #007bff; /* Couleur bleue Bootstrap */
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Bleu plus foncé au survol */
+}
+
+/* Texte des liens */
+.card a {
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+    color: #007bff; /* Bleu pour les liens */
+    font-size: 0.9rem;
+}
+
+.card a:hover {
+    text-decoration: underline; /* Souligne au survol */
+}
+
+/* Checkbox */
+.form-check {
+    margin-bottom: 20px;
+}
+
+.form-check-input {
+    margin-right: 10px;
+}
+
+.form-check-label {
+    font-size: 0.9rem;
+}
+
+/* Alertes pour erreurs */
+.alert {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+}
+
+.alert-danger {
+    background-color: #f8d7da; /* Rouge clair */
+    color: #721c24; /* Texte rouge foncé */
+    border: 1px solid #f5c6cb;
 }
